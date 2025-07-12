@@ -216,6 +216,10 @@ load-nvmrc
 
 alias gitconfig="code ~/.gitconfig"
 alias zshconfig="code ~/.zshrc"
+setgitemail() {
+  bash <(curl -fsSL https://raw.githubusercontent.com/silvanatrabalon/mysetup/main/gitemail.sh)
+}
+
 EOF
 
 echo "✔️ Configuration added. To apply the changes, open a new terminal or run 'source ~/.zshrc' in zsh."
