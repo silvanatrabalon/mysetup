@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-echo "Do you want to set your Git GLOBAL email? (yes/no)"
+echo "Do you want to set your Git GLOBAL email? (Y/n)"
 echo "→ This email will be used as your identity in ALL repositories unless a local email is set."
 read set_global
 
-if [[ "$set_global" == "yes" ]]; then
+if [[ "$set_global" == "y" ||  "$set_global" == "Y" ]]; then
   echo "Enter the GLOBAL email address you want to use:"
   read global_email_input
   if [[ -z "$global_email_input" ]]; then
@@ -18,11 +18,11 @@ else
 fi
 
 echo ""
-echo "Do you want to set your Git LOCAL email for this repository? (yes/no)"
+echo "Do you want to set your Git LOCAL email for this repository? (Y/n)"
 echo "→ This email will only apply to the Git repository you're currently in: $(pwd)"
 read set_local
 
-if [[ "$set_local" == "yes" ]]; then
+if [[ "$set_local" == "y" || "$set_local" == "Y" ]]; then
   echo "Enter the LOCAL email address you want to use:"
   read local_email_input
   if [[ -z "$local_email_input" ]]; then
