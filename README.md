@@ -12,7 +12,7 @@ This repository contains modular shell scripts to automate the installation and 
   - `03-node` — Installs the latest Node.js using NVM
   - `04-gh` — Installs GitHub CLI and offers to log in
   - `05-jq` — Installs jq (JSON processor)
-  - `06-gitconfig` — Interactive setup for your global Git configuration
+  - `06-gitconfig` — Interactive setup for your Git configuration
   - `07-finder` — Optionally shows hidden files in Finder
   - `08-vscode` — Configures VS Code to disable editor preview
 
