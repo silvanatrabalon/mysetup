@@ -219,6 +219,13 @@ alias zshconfig="code ~/.zshrc"
 setgitemail() {
   bash <(curl -fsSL https://raw.githubusercontent.com/silvanatrabalon/mysetup/main/gitemail.sh)
 }
+help() {
+  echo "Available commands:"
+  echo "  gitconfig - Open your Git configuration file in VS Code"
+  echo "  zshconfig - Open your Zsh configuration file in VS Code"
+  echo "  setgitemail - Set your Git email using a script"
+  echo "  reload - Reload your Zsh configuration"
+}
 
 EOF
 
