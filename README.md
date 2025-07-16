@@ -51,6 +51,8 @@ If you append the provided zsh config, you will have these aliases available:
 - `gitconfig` → `code ~/.gitconfig`
 - `zshconfig` → `code ~/.zshrc`
 - `setgitemail` → Prompt the global and local setup for your git email
+- `reload` → Reload your Zsh configuration
+- `help` → List of commands
 
 ### Other preferences
 - VS Code configured to disable editor preview tabs.
